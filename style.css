@@ -1,0 +1,130 @@
+*{
+  margin: 100;
+  padding: 20;  
+}
+.sidebar{
+    background-color: lightcoral;
+    /* width: 434px; */
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 42px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 52px 0;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+    
+}
+.main{
+    
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    
+    height: 45vh;
+    /* width: 80vw; */
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.HELLO{
+   font-size: 50px; 
+}
+.NAME{
+    font-size: 40px;
+    font-weight: bold;
+}
+.ABOUT{
+    font-size: 35px;
+}
+.BUTTON{
+    margin-top: 25px;
+}
+
+.BUTTON button{
+   padding: 9px 10px;
+   border-radius: 32px;
+   background-color: aquamarine;
+   font-weight:bolder;
+   font-size: 10px;
+   margin: 5 10px;
+   cursor: pointer;
+}
+.BUTTON button:hover{
+    background-color: lightcoral;
+    color: brown;
+
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro h2{
+margin: 12px;
+}
+.intro p{
+    margin: 12px;
+
+}
+.skillcontainer{
+    padding: 5px;
+
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    height: 5px;
+    width: 200px;
+    background-color:rgb(7, 173, 156);
+    border:2px solid rgb(29, 2, 2);
+}
+.hu{
+width: 300px;
+background-color:aquamarine;
+}
+.seven{
+width:200 px;
+background-color:violet;
+}
+.fi{
+width: 150px;
+background-color:rgb(88, 6, 166);
+}
+.tw{
+width: 75px;
+background-color: rgba(218, 9, 9, 0.5);
+}
+.eig{
+    width:250px ;
+    background-color: rgb(24, 146, 77);
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.image3{
+    margin-left: 147px;
+}
+@media (max-width:1000px) {
+    
+    .sidebar{
+        /* transform: translate(-430px,0px); */
+        position: relative;
+    }
+    
+}
